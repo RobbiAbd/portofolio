@@ -1,0 +1,61 @@
+*{
+  border: 0; 
+	margin: 0;
+	padding: 0;
+  transition: all .1s ease; 
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+body {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-blue {
+  color: #2880ce;
+}
+
+.progress {
+  margin-bottom: 15px;
+}
+
+.page {
+  color: #4A4444;
+  font-family: 'Noto Sans', sans-serif;
+	margin: 10%;
+}
+
+.jumbotron {
+  background: none;
+}
+
+/*---Start Parallax---*/
+
+.parallax {     
+	background: url("https://static.pexels.com/photos/3080/creative-apple-desk-office.jpg") repeat fixed 100%; 
+  background-size: cover;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 400%;
+  text-align: center;
+	text-transform: uppercase;
+}
+ 
+
+.parallax-inner {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+/*---End Parallax---*/
+
+
+@media (max-width: 575.98px) { 
+.parallax {
+  background: url("https://static.pexels.com/photos/3080/creative-apple-desk-office.jpg"); 
+  background-size: cover;
+}
+
+}
