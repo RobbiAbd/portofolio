@@ -13,7 +13,7 @@ export default function About() {
 									<h3 className="text-blue">About</h3>
 								</div>
 								<div className="card-text">
-								Lahir di Majalengka pada tahun 2001, saya adalah seorang web developer. Kesukaan terhadap IT membuat saya ingin mempelajari hal-hal baru setiap harinya. Suka motivasi diri agar mencapai target, dan tidak berlebihan dalam segala hal. 
+								Lahir di Majalengka pada tahun 2001, saya adalah seorang web developer. Kesukaan terhadap IT membuat saya ingin mempelajari hal-hal baru setiap harinya. Suka motivasi diri agar mencapai target, dan tidak berlebihan dalam segala hal.
 								</div>
 							</div>
 
@@ -22,6 +22,7 @@ export default function About() {
 									<div className="card-title">
 										<h3 className="text-blue">Basic Information</h3>
 									</div>
+									<div className="table-responsive">
 									<table className="table ">
 										<tbody>
 											<tr>
@@ -36,8 +37,15 @@ export default function About() {
 												<td>robbyabd10@gmail.com </td>
 											</tr>
 
+
 											<tr>
 												<th>Phone</th>
+												<th>:</th>
+												<td>085156185946 </td>
+											</tr>
+
+											<tr>
+												<th>WhatsApp</th>
 												<th>:</th>
 												<td>082126566475 </td>
 											</tr>
@@ -49,6 +57,7 @@ export default function About() {
 											</tr>
 										</tbody>
 									</table>
+									</div>
 								</div>
 							</div>
 					    </div>
