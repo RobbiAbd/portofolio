@@ -24,6 +24,8 @@ export default function Portfolio(props) {
 				<h3 className="text-blue text-center" data-aos="zoom-in-up">Portfolio</h3>
 					<div className="row">
 						<ListPortfolio img="https://github.com/RobbiAbd/pengaduan-masyarakat/blob/master/assets/uploads/pengaduan-img.png?raw=true" name="Pengaduan Masyarakat dengan PHP Codeigniter" />
+						<ListPortfolio img="./img/evoting.png" name="E-Voting dengan PHP Codeigniter" />
+						<ListPortfolio img="./img/ppdb.png" name="PPDB dengan PHP Codeigniter" />
 					</div>
 
 				</div>

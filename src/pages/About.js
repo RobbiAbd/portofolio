@@ -34,7 +34,7 @@ export default function About() {
 											<tr>
 												<th>Email</th>
 												<th>:</th>
-												<td>robbyabd10@gmail.com </td>
+												<td>robbiabd.drawing@gmail.com </td>
 											</tr>
 
 
